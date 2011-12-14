@@ -1,0 +1,101 @@
+body {
+	background:#ecedef url(../images/background1.png) repeat-x;
+}
+
+a {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight:bold;
+	color: #5b86b0;
+	text-decoration:none; color:#548dd4; border: 0px;}
+a:hover {text-decoration:underline; border: 0px;}
+a.u {text-decoration:underline; border: 0px;}
+a.u:hover {text-decoration:none; border: 0px;}
+.n a, a.n, a.n:hover {text-decoration:none; border: 0px;}
+a:focus, a:active {outline: none;}
+
+h1 {
+	font-family: Arial;
+	font-size: 32px;
+	font-weight:bold;
+	color: #3a5e82;
+}
+
+label {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight:bold;
+	color: #5b86b0;
+}
+
+#container{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#menuleft{
+	float:left;
+	width:31px;
+	height:92px;
+	background: url(../images/background5.png) repeat-x;
+
+}
+
+#menu {
+	position:relative;
+	width:569px;
+	height:92px;
+	float:right;
+	background: url(../images/background4.png) repeat-x;
+}
+
+
+#content {
+	position:relative;
+	margin-top:92px;
+	width:600px;
+	height:516px;
+}
+
+#contentMid {
+	position:absolute;
+	padding-top: 15px;
+	width:564px;
+	height:516px;
+	right:48px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight:bold;
+	color: #3a5e82;
+	background: url(../images/background3.png) repeat-x;
+}
+
+#contentLeft {
+	position:absolute;
+	right:612px;
+	width:18px;
+	height:516px;
+	background: url(../images/background2.png) repeat-x;
+}
+
+#contentRight {
+	position:absolute;
+	right:30px;
+	width:18px;
+	height:516px;
+	background: url(../images/background6.png) repeat-x;
+}
+
+#phptitle {
+	position:absolute;
+	width:265px;
+	height:90px;
+	
+}
+
+
+
+.clear {
+	clear:both;
+}
